@@ -1,0 +1,11 @@
+name: Manhunt
+version: '${project.version}'
+main: de.luck212.manhunt.main.Main
+api-version: 1.16
+commands:
+  timer:
+    description: Starte, Stoppe oder setze den Timer zurück
+  start:
+    description: Startet das Spiel
+  rank:
+    description: Setze die Rolle eines Spielers auf Hunter oder Runner
